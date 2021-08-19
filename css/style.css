@@ -11,11 +11,14 @@ ul{
     margin: 0 auto;
 }
 
+.middle-column .img{
+    margin-top: -114px;
+}
 
-.img img{
+.middle-column .img img{
     max-width: 100%;
     width: 100%;
-    /* z-index: -1; */
+   /* z-index: -1; */
 }
 
 .logo a{
@@ -115,7 +118,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     margin-right: 55px;
 }
 .line{
@@ -274,7 +277,7 @@ h1{
 
     .learn-more{
         display: block;
-        margin-right: 0pt;
+        margin-right: 0px;
     }
 
     .right-column ul{
@@ -292,6 +295,9 @@ h1{
     .right-column li{
         margin-left: 10px;
 
+    }
+    .middle-column .img {
+       margin-top: 0;
     }
 }
 
