@@ -1,0 +1,298 @@
+body{
+    font-family: 'Sofia Pro';
+}
+
+ul{
+    list-style-type: none;
+}
+.wrapper {
+    max-width: 1200px;
+    padding: 30px 15px;
+    margin: 0 auto;
+}
+
+
+.img img{
+    max-width: 100%;
+    width: 100%;
+    /* z-index: -1; */
+}
+
+.logo a{
+    color: black;
+    font-family: 'Circular Std';
+    display: flex;
+}
+
+a{
+    text-decoration:none;
+}
+
+.site-name{
+    font-size: 32px; 
+}
+
+.trademark{
+    font-size: 12px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon i{
+    margin-left: 15px;
+}
+
+
+/* меню */
+
+.menu{
+    margin-bottom: 140px;
+}
+
+.menu li{
+    /* display: block; */
+    font-family: 'Sofia Pro ExtraLight';
+    font-size: 22px;
+    /* margin-bottom: 60px; */
+    margin: 0 0 60px 0;
+}
+
+.menu a{
+    color: #3A3A3A;
+}
+
+.tag{
+    font-size: 12px;
+    font-family:'Sofia Pro Light';
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 2px 5px ;
+    color: rgb(255, 255, 255);
+}
+
+.left-column{
+    width: 20%;
+}
+
+.middle-column{
+    width: 75%;
+}
+
+.right-column{
+    width: 5%;
+}
+
+.menu{
+    padding: 0;
+}
+
+.header{
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.extra-care{
+    display: flex;
+    font-family: 'Sofia Pro Ultralight';
+    font-size: 24px;
+    
+}
+
+h2{
+    margin-top: 0px;
+}
+
+.has-background-black{
+   background-color: #000000;  
+   color: rgb(255, 255, 255); 
+    
+}
+
+.learn-more{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-right: 55px;
+}
+.line{
+    /* border: 1px solid #000000; */
+    border-bottom: 1px solid #000;
+    width: 35px;
+    height: 1px;
+}
+
+.learn-more p{
+    font-family: 15px;
+    font-family: Sofia Pro;
+}
+/* правая часть сайта */
+.right-column ul{
+    padding: 0;
+}
+
+.scroll-down a{
+    color: #000000;
+    font-size: 12px;
+}
+
+/* центральная секция */
+
+.txt{
+    margin-bottom:49px ;
+    max-width: 60%;
+    margin-top: 80px;
+    z-index: 1;
+    position: relative;
+}
+
+.txt p{
+    font-family: 'Sofia Pro Light';
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.4);
+    margin: 0;
+}
+
+h1{
+    font-family: 'Sofia Pro Ultralight';
+    font-size: 62px;
+    font-weight: 300;
+    margin: 0;
+}
+.button-maxer{
+    margin-top: 49px;
+}
+
+.button i{
+    margin-right: 5px;
+}
+
+/* кнопки */
+.button{
+    font-family: Montserrat;
+    font-size: 15px;
+    color: #030304;
+    border-radius: 8px;
+    padding: 25px 35px;
+    border: 1px solid #808080;
+    
+}
+.button.is-black{
+    font-family: 'Montserrat-Medium';
+    color: white;
+    background-color: #030304;
+    margin-right: 10px;
+}
+
+
+.right-column a{
+    font-family: 'Circular Std';
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 1);
+    
+}
+
+.right-column li{
+    /* transform: rotate(-90deg); */
+    /* writing-mode: vertical-rl; */
+    margin-bottom: 10px;
+    
+}
+
+.right-column {
+   display: flex; 
+   writing-mode: vertical-rl;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
+.right-column ul{
+    display: flex;
+    transform: rotate(-180deg);
+    margin: 0px;
+    
+}
+
+/* Laptop */
+@media screen and (max-width:1024px) {
+    .button{
+        padding: 20px 30px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .row{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo{
+        margin-bottom: 15px;
+    }
+
+    .icon{
+        font-size: 25px;
+        /* margin-right:20px ; */
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .icon i{
+        /* margin-right:10px ; */
+        margin: 0px;
+    }
+
+    .middle-column{
+        width: 70%;
+    }
+
+    .wrapper .middle-column{
+        width: 100%;
+    }
+
+    .wrapper .left-column{
+        width: 100%;
+    }
+    
+    .extra-care{
+        align-items: center;
+        justify-content: center;
+    }
+    .txt{
+        max-width: 100%;
+    }
+
+    .line{
+        margin: 0 55px;
+        width: 85%;
+    }
+
+    .learn-more{
+        display: block;
+        margin-right: 0pt;
+    }
+
+    .right-column ul{
+        transform: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-column{
+        writing-mode: horizontal-tb;
+        width: 100%;
+        display: block;
+    }
+
+    .right-column li{
+        margin-left: 10px;
+
+    }
+}
+
+
