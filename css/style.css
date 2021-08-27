@@ -22,7 +22,6 @@ ul{
 }
 
 .logo a{
-    color: black;
     font-family: 'Circular Std';
     display: flex;
 }
@@ -63,17 +62,11 @@ a{
     margin: 0 0 60px 0;
 }
 
-.menu a{
-    color: #3A3A3A;
-}
-
 .tag{
     font-size: 12px;
     font-family:'Sofia Pro Light';
-    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     padding: 2px 5px ;
-    color: rgb(255, 255, 255);
 }
 
 .left-column{
@@ -108,12 +101,6 @@ h2{
     margin-top: 0px;
 }
 
-.has-background-black{
-   background-color: #000000;  
-   color: rgb(255, 255, 255); 
-    
-}
-
 .learn-more{
     display: flex;
     justify-content: space-between;
@@ -138,13 +125,12 @@ h2{
 }
 
 .scroll-down a{
-    color: #000000;
     font-size: 12px;
 }
 
 /* центральная секция */
 
-.txt{
+.product-description{
     margin-bottom:49px ;
     max-width: 60%;
     margin-top: 80px;
@@ -152,10 +138,9 @@ h2{
     position: relative;
 }
 
-.txt p{
+.product-description p{
     font-family: 'Sofia Pro Light';
     font-size: 21px;
-    color: rgba(0, 0, 0, 0.4);
     margin: 0;
 }
 
@@ -177,16 +162,11 @@ h1{
 .button{
     font-family: Montserrat;
     font-size: 15px;
-    color: #030304;
     border-radius: 8px;
-    padding: 25px 35px;
-    border: 1px solid #808080;
-    
+    padding: 25px 35px;    
 }
 .button.is-black{
     font-family: 'Montserrat-Medium';
-    color: white;
-    background-color: #030304;
     margin-right: 10px;
 }
 
@@ -194,9 +174,7 @@ h1{
 .right-column a{
     font-family: 'Circular Std';
     font-size: 14px;
-    line-height: 18px;
-    color: rgba(0, 0, 0, 1);
-    
+    line-height: 18px;    
 }
 
 .right-column li{
@@ -220,103 +198,3 @@ h1{
     
 }
 
-/* Laptop */
-@media screen and (max-width:1024px) {
-    .button{
-        padding: 20px 30px;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .row{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .logo{
-        margin-bottom: 15px;
-    }
-
-    .icon{
-        font-size: 25px;
-        /* margin-right:20px ; */
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-    }
-
-    .icon i{
-        /* margin-right:10px ; */
-        margin: 0px;
-    }
-
-    .middle-column{
-        width: 70%;
-    }
-
-    .wrapper .middle-column{
-        width: 100%;
-    }
-
-    .wrapper .left-column{
-        width: 100%;
-    }
-    
-    .extra-care{
-        align-items: center;
-        justify-content: center;
-    }
-    .txt{
-        max-width: 100%;
-    }
-
-    .line{
-        margin: 0 55px;
-        width: 85%;
-    }
-
-    .learn-more{
-        display: block;
-        margin-right: 0px;
-    }
-
-    .right-column ul{
-        transform: none;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .right-column{
-        writing-mode: horizontal-tb;
-        width: 100%;
-        display: block;
-    }
-
-    .right-column li{
-        margin-left: 10px;
-
-    }
-    .middle-column .img {
-       margin-top: 0;
-    }
-}
-
-@media screen and (max-width:1024px) {
-    .line{
-        margin-left: 0px;
-        min-width: 100%;
-    }
-}
-
-@media screen and (max-width:375px) {
-    .button{
-        padding: 20px 20px;
-    }
-}
-
-@media screen and (max-width:375px) {
-    .button{
-        font-size: 12px;
-        padding: 15px;
-    }
-}

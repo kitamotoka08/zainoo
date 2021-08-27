@@ -1,0 +1,43 @@
+html{
+    --black: #030304;
+    --white: #ffffff;
+}
+
+.logo a,
+.menu a
+{
+    color: var(--black);
+}
+
+
+.tag {
+    background-color: #00000033;
+    color: var(--white);
+}
+
+.has-background-black {
+    background-color: var(--black);  
+    color: var(--white);  
+}
+
+.scroll-down a {
+    color: var(--black);
+}
+
+.product-description p {
+    color: #00000066;
+}
+
+.button {
+    color: var(--black);
+    border: 1px solid #808080;
+}
+
+.button.is-black {
+    color: var(--white);
+    background-color: #030304;
+}
+
+.right-column a {
+    color: var(--black);
+}

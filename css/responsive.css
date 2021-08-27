@@ -1,0 +1,104 @@
+/* Laptop */
+@media screen and (max-width:1024px) {
+    .button {
+        padding: 20px 30px;
+    }
+
+    .product-description {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .middle-column .img {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 15px;
+    }
+
+    .icon {
+        font-size: 25px;
+        /* margin-right:20px ; */
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .icon i {
+        /* margin-right:10px ; */
+        margin: 0px;
+    }
+
+    .middle-column {
+        width: 70%;
+    }
+
+    .wrapper .middle-column {
+        width: 100%;
+    }
+
+    .wrapper .left-column {
+        width: 100%;
+    }
+    
+    .extra-care {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .line {
+        margin: 0 55px;
+        width: 85%;
+    }
+
+    .learn-more {
+        display: block;
+        margin-right: 0px;
+    }
+
+    .right-column ul {
+        transform: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-column {
+        writing-mode: horizontal-tb;
+        width: 100%;
+        display: block;
+    }
+
+    .right-column li {
+        margin-left: 10px;
+
+    }
+    .middle-column .img {
+       margin-top: 0;
+    }
+
+    .line {
+        margin-left: 0px;
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    .button-maxer {
+        text-align: center;
+    }
+
+    .button-maxer .button {
+        display: inline-block;
+        width: 60%;
+        margin: 0 0 15px 0;
+    }
+}
